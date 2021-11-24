@@ -10,6 +10,7 @@
 #### Descrição
 Esse projeto foi desenvolvido para fins didáticos apresentado um CRUD simples utilizando Spring, Java e o banco de dados H2.
 
+### Estrutura do projeto
 A classe Pessoa no pacote model, irá representar a tabela no Banco de Dados.
 A interface PessoaRepository no pacote repositories tem como responsabilidade acessar o banco de dados.
 A classe PessoaService no pacote services concentrará a ógica relacionada aos negócios. É essa classe que será a facilitadora no acesso dos Models e com isso, o Controller passará a enxergar a Service e o repository fica encapsulado nela.
